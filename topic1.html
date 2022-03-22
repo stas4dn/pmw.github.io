@@ -1,0 +1,292 @@
+﻿<html>
+  <head>
+    <title>Topic1: Introduction to Computing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/flag.gif" />
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+      /*Sections Start here*/
+      .container {
+        float: left;
+        position: fixed;
+        max-height: 83vh;
+        margin: 20px;
+        overflow:auto;
+        z-index: 0;
+      }
+      .container h2 {
+        color: #444afd;
+      }
+      .container p {
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      .sidebar {
+        margin: 5px;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 102px;
+        right: 0;
+        background-image: linear-gradient(#44a7fd,#0048bd);
+        overflow-x:scroll;
+        transition: 0.8s;
+        padding-top: 60px;
+        border-radius: 10px;
+      }
+
+      .style4 {
+	font-size: 20px;
+	font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.style5 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        color: #fff;
+      }
+      .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #0048bd;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+      }
+
+      .openbtn:hover {
+        background-color: #44a7fd;
+      }
+
+      #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+      }
+
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .sidebar {
+          padding-top: 15px;
+        }
+        .sidebar a {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="waves">
+      <!--Waves Container-->
+      <div class="waves">
+        <svg
+          class="waves"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+      <div class="content">
+        <div class="menu-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Spirituality</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="#">Sermons</a></li>
+                  <li><a href="#">Christian Ebooks</a></li>
+                  <li><a href="#">Prayer Requests</a></li>
+                  <li><a href="verse.html">Daily Verses</a></li>
+                  <li><a href="#">Praise and Worship</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="active">
+              <a href="#">S850/1 Revision Questions</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="acronyms.html">Acronyms</a></li>
+                  <li><a href="topic1.html">Topic 1</a></li>
+                  <li><a href="topic2.html">Topic 2</a></li>
+                  <li><a href="topic3.html">Topic 3</a></li>
+                  <li><a href="topic5.html">Topic 5</a></li>
+                  <li><a href="topic6.html">Topic 6</a></li>
+                  <li><a href="topic8.html">Topic 8</a></li>
+                  <li><a href="topic11.html">Topic 11</a></li>
+                  <li><a href="topic15.html">Topic 15</a></li>
+                  <li class="hover-me">
+                    <a href="#">Others<span>&rsaquo;</span></a>
+                    <div class="sub-menu-2">
+                      <hr />
+                      <ul>
+                        <li><a href="word.html">MS Word</a></li>
+                        <li><a href="excel.html">MS Excel</a></li>
+                        <li><a href="powerpoint.html">Ms PowerPoint</a></li>
+                        <li><a href="access.html">Ms Access</a></li>
+                        <li><a href="publisher.html">Ms Publisher</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Other Study Materials</a></li>
+            <li><a href="faucets.html">Earn free Crypto</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="container" style="top: 100px">
+        <h2>
+          <strong>Topic 1: <u>Introduction to Computing</u></strong>
+        </h2>
+        <p>
+          <strong><em>SubTopic 1:Introduction to Computers</em></strong>
+        </p>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >×</a>
+            <iframe
+            name="iframe_a"
+            width="100%"
+            height= "80%"
+            title="Iframe Example"
+            style="
+              border-radius: 20px;
+              padding-left: 10px;
+              overflow: hidden;
+            "
+          >
+            </iframe>
+        </div>
+
+        <p>
+          Qn1. Define a computer <br />
+          Qn2. What is a computer system?<br />
+          Qn3. State and explain the five components of a computer system<br />
+          Qn4. Differentiate between ordinary user and professional user<br />
+          Qn5. Differentiate between data and information<br />
+          Qn6. State any four characteristics of meaningful information<br />
+          Qn7. Define an information processing cycle<br />
+          Qn8. With the aid of a well labelled diagram describe the information
+          processing cycle<br />
+
+          <div id="main">
+            <a href="answers topic one/st1.html" target="iframe_a"<button class="openbtn" onclick="openNav()">☰ View Answers</button></a
+              >
+          </div>
+        </p>
+        <br />
+
+        <p>
+          <strong><em>SubTopic 2:World of ICTs</em></strong>
+        </p>
+        <p>
+          Qn9. Define the term ICT <br />
+          Qn10. State any five areas where ICTs are in use today<br />
+          Qn11. Mention any five ways ICTs are used in the field of;<br />
+          a. Education<br />
+          b. Business<br />
+          c. Health<br />
+          d. Security<br />
+          e. Politics and Governance <br />
+          f. Communication<br />
+          g. Art, Leisure and Entertainment <br />
+          h. Technical and Scientific uses<br />
+
+          <div id="main">
+            <a href="answers topic one/st2.html" target="iframe_a"<button class="openbtn" onclick="openNav()">☰ View Answers</button></a>
+          </div>
+        </p>
+        <br />
+
+        <p>
+          <strong><em>SubTopic 3:Implications of using ICTs</em></strong>
+        </p>
+        <p>
+          Qn12. State any five positive implications of using ICT to the
+          society<br />
+          Qn13. State any five negative implications of using ICT to the
+          society<br />
+          Qn14. State any five (social, ethical, economic, political,
+          environmental, security) implications of using ICTs <br />
+          Qn15. Explain any five health concerns due to prolonged use of
+          computers<br />
+
+          <div id="main">
+            <a href="answers topic one/st3.html" target="iframe_a"<button class="openbtn" onclick="openNav()">☰ View Answers</button></a>
+          </div>
+        </p>
+        <br />
+      </div>
+    <!--Javascript code starts here -->
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "70%";
+        document.getElementById("main").style.marginRight = "70%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+      }
+    </script>
+
+    <script type="text/javascript">
+      /*Blinking Text js starts here*/
+      var blink = document.getElementById("blink");
+      setInterval(function () {
+        blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+      }, 500);
+      /*Blinking Text js ends here*/
+    </script>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  font-family: sans-serif;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to top, #b8defe, #dff0ff);
+  margin: auto;
+  overflow: hidden;
+}
+body a {
+  text-decoration: none;
+}
+li {
+  transition: 0.7s ease;
+}
+/*Navigation Bar starts here*/
+.menu-bar {
+  background: transparent;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0;
+  z-index: 1000;
+}
+.menu-bar ul {
+  display: inline-flex; /*how the list shows up*/
+  list-style: none; /*no bullets*/
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  width: fit-content;
+}
+.menu-bar ul li {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 15px 5px 15px 5px; /*innermost portion of the box model*/
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.menu-bar ul li a {
+  text-decoration: none; /*remove underline and blue color on links*/
+  color: #444afd;
+  font-weight: bold;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+.menu-bar ul li a:hover {
+  color: #fff;
+  transition: 0.7s ease;
+}
+.active,
+.menu-bar ul li:hover {
+  background: #44a7fc;
+  border-radius: 0 30px;
+}
+.menu-bar ul span {
+  position: absolute;
+  right: 20px;
+  font-size: 1.5vw;
+}
+.sub-menu-1 {
+  display: none;
+  z-index: 1000;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to left, #44a7fd, #0383f2);
+  background: rgba(68, 167, 253, 0.9);
+  z-index: 1000;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  padding: 0 5px 0 5px;
+  border-radius: 30px;
+  background: transparent;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 15em;
+  padding: 0 5px 0 20px;
+  border-bottom: 1px dotted #fff;
+  background-image: linear-gradient(to left, #44a7fd, #0383f2);
+  border-radius: 0 30px;
+  text-align: left;
+  font-weight: bolder;
+  background: transparent;
+}
+.menu-bar ul li:hover .sub-menu-1 ul a {
+  display: flex;
+  min-width: 0;
+  border-radius: 0 30px;
+  height: 25px;
+  width: 100%;
+  color: #fff;
+}
+.menu-bar ul li:hover .sub-menu-1 ul a:hover {
+  color: #444afd;
+  background: #44a7fc;
+  display: flex;
+  border-radius: 0 30px;
+  height: 25px;
+  width: 100%;
+}
+.sub-menu-2 {
+  display: none;
+}
+.hover-me:hover .sub-menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -75%; /*Display sub-menu-2 upwards*/
+  margin-left: 13.5em;
+  background-image: linear-gradient(to left, #44a7fd, #0383f2);
+  background: rgba(68, 167, 253, 0.8);
+  border-radius: 30px;
+  z-index: 0;
+  animation: 0.3s ease;
+}
+
+hr {
+  border-color: #7ec2fe;
+  width: 75%;
+  margin-left: 20px;
+}
+/*Navigation Bar ends here*/
+/*Waves start here*/
+.waves {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 100px;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+  background-image: linear-gradient(30deg, #44a7fd, #0048bd);
+  display: inline-flex;
+}
+
+.waves .content {
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  background: rgb(104, 247, 375); /* Fallback color */
+  background: rgba(104, 247, 375, 0.01); /* Black background with 0.5 opacity */
+  color: #44a7fd;
+  width: 100%;
+}
+
+/* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+    z-index: 0;
+  }
+}
+/*Waves end here*/
+#blink {
+  transition: 0.5s;
+}
+.container {
+  max-width: 100%;
+}
+legend {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,300 @@
+﻿<html>
+  <head>
+    <title>Welcome to the official Tumusiime Silbert's Website</title>
+    <link rel="shortcut icon" href="images/flag.gif" />
+    <link rel="stylesheet" href="styleind.css" />
+    <style type="text/css">
+      /*Sections Start here*/
+      .container {
+        float: left;
+        position: fixed;
+        max-height: 80vh;
+        max-width: 80%;
+        margin: 0 auto;
+        color: #fff;
+        padding: 20px;
+        z-index: 0;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      .container h2 {
+        color: #444afd;
+      }
+      .container p {
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: black;
+        text-align: left;
+      }
+      .container li {
+        color: black;
+        font-weight: bold;
+        margin-left: 20px;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "montserrat";
+      }
+      section {
+        float: right;
+        margin-top: 20px;
+        height: 80vh;
+        width: 30%;
+        background-color: aliceblue;
+        display: flex;
+        align-items: right;
+        justify-content: center;
+        flex-direction: column;
+        background: transparent;
+      }
+      .frmcontainer {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 18px;
+        box-shadow: 0px 0px 18px #00000010;
+        background-color: white;
+        border-radius: 8px;
+        margin-bottom: 18px;
+      }
+      .form-group {
+        width: 100%;
+        margin-top: 3px;
+        font-size: 18px;
+      }
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 3px;
+        font-size: 15px;
+        border: 1px solid rgba(128, 128, 128, 0.199);
+        margin-top: 3px;
+      }
+      textarea {
+        resize: vertical;
+      }
+      button[type="submit"] {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 3px;
+        font-size: 20px;
+        border-radius: 8px;
+        font-family: "montserrat";
+        color: rgb(27, 166, 247);
+        text-align: center;
+        cursor: pointer;
+        margin-top: 3px;
+        transition: 0.3s ease background-color;
+      }
+      button[type="submit"]:hover {
+        background-color: rgb(214, 226, 236);
+      }
+      #status {
+        width: 90%;
+        max-width: 300px;
+        text-align: center;
+        padding: 3px;
+        margin: 0 auto;
+        border-radius: 8px;
+      }
+      #status.success {
+        background-color: rgb(211, 250, 253);
+        animation: status 4s ease forwards;
+      }
+      #status.error {
+        background-color: rgb(250, 129, 92);
+        color: white;
+        animation: status 4s ease forwards;
+      }
+      @keyframes status {
+        0% {
+          opacity: 1;
+          pointer-events: all;
+        }
+        90% {
+          opacity: 1;
+          pointer-events: all;
+        }
+        100% {
+          opacity: 0;
+          pointer-events: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="waves">
+      <!--Waves Container-->
+      <div class="waves">
+        <svg
+          class="waves"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+      <div class="content">
+        <div class="menu-bar">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Spirituality</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="#">Sermons</a></li>
+                  <li><a href="#">Christian Ebooks</a></li>
+                  <li><a href="#">Prayer Requests</a></li>
+                  <li><a href="#">Daily Verses</a></li>
+                  <li><a href="#">Praise and Worship</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">S850/1 Revision Questions</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="acronyms.html">Acronyms</a></li>
+                  <li><a href="topic1.html">Topic 1</a></li>
+                  <li><a href="topic2.html">Topic 2</a></li>
+                  <li><a href="topic3.html">Topic 3</a></li>
+                  <li><a href="topic5.html">Topic 5</a></li>
+                  <li><a href="topic6.html">Topic 6</a></li>
+                  <li><a href="topic8.html">Topic 8</a></li>
+                  <li><a href="topic11.html">Topic 11</a></li>
+                  <li><a href="topic15.html">Topic 15</a></li>
+                  <li class="hover-me">
+                    <a href="#">Others<span>&rsaquo;</span></a>
+                    <div class="sub-menu-2">
+                      <hr />
+                      <ul>
+                        <li><a href="word.html">MS Word</a></li>
+                        <li><a href="excel.html">MS Excel</a></li>
+                        <li><a href="powerpoint.html">Ms PowerPoint</a></li>
+                        <li><a href="access.html">Ms Access</a></li>
+                        <li><a href="publisher.html">Ms Publisher</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Other Study Materials</a></li>
+            <li><a href="faucets.html">Earn free Crypto</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span>
+      <div class="container" style="top: 100px">
+        <h1 style="color: blue">
+          Welcome to the official Tumusiime Silbert's Website
+        </h1>
+        <hr style="width: 100%; margin-left: 0px" />
+        <p>Are you helpable?</p>
+        <br />
+        <p>
+          <a href="MCQ/eoye.html" target="iframe_a"
+            >View Multiple Choice Questions</a
+          >
+        </p>
+        <iframe
+          name="iframe_a"
+          width="100%"
+          title="Iframe Example"
+          style="
+            float: left;
+            border-radius: 40px;
+            padding-left: 10px;
+            max-height: 100%;
+            height: 200vh;
+            top: 100px;
+            margin-top: 20px;
+          "
+        >
+        </iframe>
+      </div>
+
+      <section>
+        <div class="frmcontainer">
+          <form
+            action="https://formspree.io/f/mvodprkv"
+            method="post"
+            id="my-form"
+          >
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" />
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+    </span>
+    <!--Javascript code starts here -->
+    <script type="text/javascript">
+      /*Blinking Text js starts here*/
+      var blink = document.getElementById("blink");
+      setInterval(function () {
+        blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+      }, 500);
+      /*Blinking Text js ends here*/
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,956 @@
+﻿<html>
+  <head>
+    <title>Important Acronyms</title>
+    <link rel="shortcut icon" href="images/flag.gif" />
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+      /*Sections Start here*/
+      .container {
+        float: left;
+        position: fixed;
+        max-height: 80vh;
+        margin-top: 0vh;
+        margin: 0 auto;
+        color: #fff;
+        padding: 20px;
+        overflow: auto;
+        z-index: 0;
+      }
+      .container h2 {
+        color: #444afd;
+      }
+      .container p {
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: black;
+        text-align: left;
+      }
+      .auto-style1 {
+        color: #ffffff;
+      }
+
+      .auto-style2 {
+        color: #000000;
+        width: 100%;
+        font-size: large;
+      }
+
+      .auto-style3 {
+        color: #0048bd;
+        text-align: right;
+        font-size: large;
+      }
+      .auto-style3:hover {
+        background-color: #fff;
+      }
+      /* Add animation (fade in the popup) */
+      @-webkit-keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted #44a7fd;
+        cursor: pointer;
+        width: 10vw;
+        z-index: 6;
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        background-color: #44a7fd;
+        color: #fff;
+        width: auto;
+        white-space: nowrap;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 20;
+        bottom: 125%;
+        right: -100%;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 2vw;
+      }
+
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #44a7fd transparent transparent transparent;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        -webkit-animation: fadeIn 2s;
+        animation: fadeIn 2s;
+        opacity: 1;
+      }
+      tr:hover {
+        background-color: #44a7fd;
+      }
+      td {
+        border-bottom: 1px dotted #44a7fd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="waves">
+      <!--Waves Container-->
+      <div class="waves">
+        <svg
+          class="waves"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+      <div class="content">
+        <div class="menu-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Spirituality</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="#">Sermons</a></li>
+                  <li><a href="#">Christian Ebooks</a></li>
+                  <li><a href="#">Prayer Requests</a></li>
+                  <li>
+                    <a href="verse.html" target="iframe_a">Daily Verses</a>
+                  </li>
+                  <li><a href="#">Praise and Worship</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="active">
+              <a href="#">S850/1 Revision Questions</a>
+              <div class="sub-menu-1">
+                <hr />
+                <ul>
+                  <li><a href="acronyms.html">Acronyms</a></li>
+                  <li><a href="topic1.html">Topic 1</a></li>
+                  <li><a href="topic2.html">Topic 2</a></li>
+                  <li><a href="topic3.html">Topic 3</a></li>
+                  <li><a href="topic5.html">Topic 5</a></li>
+                  <li><a href="topic6.html">Topic 6</a></li>
+                  <li><a href="topic8.html">Topic 8</a></li>
+                  <li><a href="topic11.html">Topic 11</a></li>
+                  <li><a href="topic15.html">Topic 15</a></li>
+                  <li class="hover-me">
+                    <a href="#">Others<span>&rsaquo;</span></a>
+                    <div class="sub-menu-2">
+                      <hr />
+                      <ul>
+                        <li><a href="word.html">MS Word</a></li>
+                        <li><a href="excel.html">MS Excel</a></li>
+                        <li><a href="powerpoint.html">Ms PowerPoint</a></li>
+                        <li><a href="access.html">Ms Access</a></li>
+                        <li><a href="publisher.html">Ms Publisher</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Other Study Materials</a></li>
+            <li><a href="faucets.html">Earn free Crypto</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span>
+      <div class="container" style="top: 100px">
+        <h2>Important Acronyms</h2>
+        <br />
+
+        <table>
+          <tr>
+            <td class="auto-style2" style="width: 70%">ALU</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Arithmetic Logic Unit</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">ASCII</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >American Standard Code for Information Interchange</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">BIOS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Basic Input Output System</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">BPS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Bits Per Second</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CAA</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Computer Aided Assessment</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CAD/M</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Computer Aided Design/Manufacturing</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CAI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Computer Assisted Instruction</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CAL</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Computer Aided Learning</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CAT-5</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">'Category 5' cable</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CD</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Compact Disc</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CD-R</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Compact Disc Recordable</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CD-ROM</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Compact Disc Read Only Memory</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CD-RW</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Compact Disc Re-Writable</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CPU</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Central Processing Unit</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CRT</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Cathode Ray Tube</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">CSS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Cascading Style Sheet</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DBMS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Data Base Management System</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DDR</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Double Data Rate</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DFD</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Data Flow Diagrams </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DOS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Disc Operating System</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DSL</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Digital Subscriber Line</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DTP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Desktop publishing</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">DVD</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Digital Versatile Disc</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">EFT</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Electronic Funds Transfer</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">EULA</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">End User Licence Agreement</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">FAQ</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Frequently Asked Questions</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">FIFO</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">First in First Out</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">FNF</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">First Normal Form</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">FTP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">File Transfer Protocol</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">Gb</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em><span class="tooltiptext">Gigabyte </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">GIF</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Graphic Interchange Format</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">GIGO</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Garbage In Garbage Out</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">GPS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Global Positioning System </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">GUI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Graphical User Interface</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">GW</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em><span class="tooltiptext">Gateway </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">HCI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Human Computer Interaction</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">HTML</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">HyperText Mark-up Language</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">HTTP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">HyperText Transfer Protocol</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">HTTPS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >HyperText Transfer Protocol Secure</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">IC</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Integrated Circuit</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">ICT</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Information and Communication Technology
+                </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">IP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Internet Protocol</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">IRC</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Internet Relay Chat </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">ISDN</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Integrated Services Digital Network</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">ISP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Internet Service Provider </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">JPEG</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Joint Photographic Experts Group</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">Kb</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em><span class="tooltiptext">Kilobyte </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">KH</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em><span class="tooltiptext">KiloHertz </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">LAN</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Local area network</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">LCD</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Liquid Crystal Display</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">LED</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Light Emitting Diode </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">LIFO</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Last in First Out</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">MAN</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Metropolitan Area Network</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">MICR</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Magnetic Ink Character Recognition
+                </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">MP3</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">MPEG Layer 3</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">NIC</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Network Interface Card </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">NOS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Network Operating System</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">OCR</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Optical Character Recognition</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">OMR</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Optical Mark Recognition</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">OOPL</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Object Oriented Programming Language</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">OSI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Open Systems Interconnection</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">PCI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Peripheral Component Interconnect
+                </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">PDA</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Personal Data Assistant </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">POS</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Point of Sale </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">PPM</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Pages per Minute </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">RAM</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Random Accesses Memory </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">ROM</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Read Only Memory</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">SATA</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Serial Advanced Technology Attachment</span
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">SCSI</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext"
+                  >Small Computer Systems Interface
+                </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">SQL</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Structured Query Language </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">TCP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Transmission Control Protocol </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">TFTP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Trivial File Transfer Protocol</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">TNF</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Third Normal Form</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">URL</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Uniform Resource Locator</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">USB</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Universal Serial Bus </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">VGA</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Video Graphics Array </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">WAN</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Wide Area Network</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="auto-style2" style="width: 728px">WAP</td>
+            <td>
+              <div class="tooltip auto-style3">
+                <em>View Answer</em
+                ><span class="tooltiptext">Wireless Application Protocol </span>
+              </div>
+            </td>
+          </tr>
+          <!--	<tr><td class="auto-style2">&nbsp;</td>
+			<td><div class="tooltip auto-style3"><em>View Answer</em><span class="tooltiptext">&nbsp;</span></div></td></tr>
+-->
+        </table>
+      </div>
+    </span>
+    <!--Javascript code starts here -->
+    <script type="text/javascript">
+      /*Blinking Text js starts here*/
+      var blink = document.getElementById("blink");
+      setInterval(function () {
+        blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+      }, 500);
+      /*Blinking Text js ends here*/
+    </script>
+  </body>
+</html>
